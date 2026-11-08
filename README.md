@@ -29,7 +29,7 @@ Obsidian 插件 ──HTTP(127.0.0.1, X-FQ-Token)──> fqsidecar.exe
 | 文件 | 用途 |
 |---|---|
 | `fqsidecar.exe` | 已经装好插件，只补侧车 |
-| `ex-libris-full-0.3.0.zip` | 完整版：插件三件套 + `bin/fqsidecar.exe`，解压即用 |
+| `ex-libris-full-0.3.1.zip` | 完整版：插件三件套 + `bin/fqsidecar.exe`，解压即用 |
 
 手动放到：
 
