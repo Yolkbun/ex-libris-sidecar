@@ -1,0 +1,27 @@
+Ex Libris 侧车（fqsidecar）
+Copyright (C) 2026 Yolkbun
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+1. ch6vip/fqapp (https://github.com/ch6vip/fqapp)
+   许可：GPL-3.0
+   关系：本仓库的侧车复用其 Rust core（设备注册、请求签名、正文解密、HTTP 路由）。
+   完整源码原样放在 vendor/fqapp/，保留其 LICENSE；适配层在 sidecar-upstream/。
+   按 GPL 要求，Release 的二进制对应源码即本仓库。
+
+2. 测试用的第三方代码（kissfft、tiny_aes）保留各自许可证，见 vendor/fqapp/native/third_party/。
+
+3. 本仓库与 ByteDance / 番茄小说、豆瓣、Obsidian、Clarivate / Ex Libris 均无关联。
